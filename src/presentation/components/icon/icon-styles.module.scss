@@ -1,0 +1,23 @@
+.iconWrap {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  padding: 4px;
+  color: white;
+  border-radius: 999px;
+  display: flex;
+
+  .icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  &.red {
+    background-color: tomato;
+
+  }
+
+  &.green {
+    background-color: green;
+  }
+}

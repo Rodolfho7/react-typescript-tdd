@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1706223689643" clover="3.2.0">
+  <project timestamp="1706223689643" name="All files">
+    <metrics statements="216" coveredstatements="215" conditionals="34" coveredconditionals="32" methods="64" coveredmethods="64" elements="314" coveredelements="311" complexity="0" loc="216" ncloc="216" packages="27" files="34" classes="34"/>
+    <package name="data.protocols.http">
+      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="http-response.ts" path="C:\Users\Rodolfho\Documents\projetos\react projects\react-clean-arq\src\data\protocols\http\http-response.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="data.tests">
+      <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+      <file name="mock-http.ts" path="C:\Users\Rodolfho\Documents\projetos\react projects\react-clean-arq\src\data\tests\mock-http.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="14" type="stmt"/>
+        <line num="14" count="14" type="stmt"/>
+        <line num="15" count="14" type="stmt"/>
+        <line num="20" count="14" type="stmt"/>
+        <line num="21" count="14" type="stmt"/>
+        <line num="22" count="14" type="stmt"/>
+      </file>
+      <file name="mock-storage.ts" path="C:\Users\Rodolfho\Documents\projetos\react projects\react-clean-arq\src\data\tests\mock-storage.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="data.usecases.add-account">
+      <metrics statements="13" coveredstatements="13" conditionals="5" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="remote-add-account.ts" path="C:\Users\Rodolfho\Documents\projetos\react projects\react-clean-arq\src\data\usecases\add-account\remote-add-account.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="5" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="7" type="stmt"/>
+        <line num="11" count="7" type="stmt"/>
+        <line num="15" count="7" type="stmt"/>
+        <line num="16" count="7" type="cond" truecount="4" falsecount="0"/>
+        <line num="18" count="3" type="cond" truecount="0" falsecount="1"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="data.usecases.authentication">
+      <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="remote-authentication.ts" path="C:\Users\Rodolfho\Documents\projetos\react projects\react-clean-arq\src\data\usecases\authentication\remote-authentication.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="7" type="stmt"/>
+        <line num="11" count="7" type="stmt"/>
+        <line num="15" count="7" type="stmt"/>
+        <line num="16" count="7" type="cond" truecount="3" falsecount="0"/>
+        <line num="18" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="data.usecases.save-access-token">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="local-save-access-token.ts" path="C:\Users\Rodolfho\Documents\projetos\react projects\react-clean-arq\src\data\usecases\save-access-token\local-save-access-token.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="domain.error">
+      <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="email-in-use-error.ts" path="C:\Users\Rodolfho\Documents\projetos\react projects\react-clean-arq\src\domain\error\email-in-use-error.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+      <file name="invalid-credentials-error.ts" path="C:\Users\Rodolfho\Documents\projetos\react projects\react-clean-arq\src\domain\error\invalid-credentials-error.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+      </file>
+      <file name="unexpected-error.ts" path="C:\Users\Rodolfho\Documents\projetos\react projects\react-clean-arq\src\domain\error\unexpected-error.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="16" type="stmt"/>
+        <line num="4" count="16" type="stmt"/>
+      </file>
+    </package>
+    <package name="domain.tests">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="mock-account.ts" path="C:\Users\Rodolfho\Documents\projetos\react projects\react-clean-arq\src\domain\tests\mock-account.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+      </file>
+      <file name="mock-add-account.ts" path="C:\Users\Rodolfho\Documents\projetos\react projects\react-clean-arq\src\domain\tests\mock-add-account.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="6" count="7" type="stmt"/>
+      </file>
+    </package>
+    <package name="infra.cache">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="local-storage-adapter.ts" path="C:\Users\Rodolfho\Documents\projetos\react projects\react-clean-arq\src\infra\cache\local-storage-adapter.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="infra.http.axios-http-client">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="axios-http-client.ts" path="C:\Users\Rodolfho\Documents\projetos\react projects\react-clean-arq\src\infra\http\axios-http-client\axios-http-client.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="infra.test">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="mock-axios.ts" path="C:\Users\Rodolfho\Documents\projetos\react projects\react-clean-arq\src\infra\test\mock-axios.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="main.factories.pages.login">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="login-validation-factory.ts" path="C:\Users\Rodolfho\Documents\projetos\react projects\react-clean-arq\src\main\factories\pages\login\login-validation-factory.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="presentation.components.footer">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="footer.tsx" path="C:\Users\Rodolfho\Documents\projetos\react projects\react-clean-arq\src\presentation\components\footer\footer.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="presentation.components.form-status">
+      <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="form-status.tsx" path="C:\Users\Rodolfho\Documents\projetos\react projects\react-clean-arq\src\presentation\components\form-status\form-status.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="668" type="stmt"/>
+        <line num="9" count="668" type="stmt"/>
+      </file>
+    </package>
+    <package name="presentation.components.input">
+      <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="input.tsx" path="C:\Users\Rodolfho\Documents\projetos\react projects\react-clean-arq\src\presentation\components\input\input.tsx">
+        <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1336" type="stmt"/>
+        <line num="9" count="1336" type="stmt"/>
+        <line num="11" count="1336" type="stmt"/>
+        <line num="12" count="317" type="stmt"/>
+        <line num="15" count="1336" type="stmt"/>
+      </file>
+    </package>
+    <package name="presentation.components.login-header">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="login-header.tsx" path="C:\Users\Rodolfho\Documents\projetos\react projects\react-clean-arq\src\presentation\components\login-header\login-header.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="presentation.components.spinner">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="spinner.tsx" path="C:\Users\Rodolfho\Documents\projetos\react projects\react-clean-arq\src\presentation\components\spinner\spinner.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="presentation.contexts.form">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="form-context.ts" path="C:\Users\Rodolfho\Documents\projetos\react projects\react-clean-arq\src\presentation\contexts\form\form-context.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="presentation.pages.login">
+      <metrics statements="28" coveredstatements="27" conditionals="4" coveredconditionals="3" methods="8" coveredmethods="8"/>
+      <file name="login.tsx" path="C:\Users\Rodolfho\Documents\projetos\react projects\react-clean-arq\src\presentation\pages\login\login.tsx">
+        <metrics statements="28" coveredstatements="27" conditionals="4" coveredconditionals="3" methods="8" coveredmethods="8"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="668" type="stmt"/>
+        <line num="30" count="668" type="stmt"/>
+        <line num="39" count="668" type="stmt"/>
+        <line num="40" count="203" type="stmt"/>
+        <line num="41" count="203" type="stmt"/>
+        <line num="44" count="668" type="stmt"/>
+        <line num="45" count="142" type="stmt"/>
+        <line num="46" count="142" type="stmt"/>
+        <line num="49" count="668" type="cond" truecount="3" falsecount="0"/>
+        <line num="51" count="668" type="stmt"/>
+        <line num="52" count="5" type="stmt"/>
+        <line num="53" count="5" type="cond" truecount="0" falsecount="1"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="56" count="5" type="stmt"/>
+        <line num="57" count="5" type="stmt"/>
+        <line num="61" count="4" type="stmt"/>
+        <line num="62" count="4" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="68" count="668" type="stmt"/>
+      </file>
+    </package>
+    <package name="presentation.tests">
+      <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+      <file name="mock-authentication.ts" path="C:\Users\Rodolfho\Documents\projetos\react projects\react-clean-arq\src\presentation\tests\mock-authentication.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="14" type="stmt"/>
+        <line num="6" count="14" type="stmt"/>
+        <line num="7" count="14" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+      </file>
+      <file name="mock-save-access-token.ts" path="C:\Users\Rodolfho\Documents\projetos\react projects\react-clean-arq\src\presentation\tests\mock-save-access-token.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="14" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+      </file>
+      <file name="mock-validation.ts" path="C:\Users\Rodolfho\Documents\projetos\react projects\react-clean-arq\src\presentation\tests\mock-validation.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="14" type="stmt"/>
+        <line num="5" count="14" type="stmt"/>
+        <line num="6" count="14" type="stmt"/>
+        <line num="9" count="345" type="stmt"/>
+        <line num="10" count="345" type="stmt"/>
+        <line num="11" count="345" type="stmt"/>
+      </file>
+    </package>
+    <package name="validation.errors">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="invalid-field-error.ts" path="C:\Users\Rodolfho\Documents\projetos\react projects\react-clean-arq\src\validation\errors\invalid-field-error.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+      </file>
+      <file name="required-field-error.ts" path="C:\Users\Rodolfho\Documents\projetos\react projects\react-clean-arq\src\validation\errors\required-field-error.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="validation.test">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="mock-field-validation.ts" path="C:\Users\Rodolfho\Documents\projetos\react projects\react-clean-arq\src\validation\test\mock-field-validation.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="validation.validators.builder">
+      <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+      <file name="validation-builder.ts" path="C:\Users\Rodolfho\Documents\projetos\react projects\react-clean-arq\src\validation\validators\builder\validation-builder.ts">
+        <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="9" count="8" type="stmt"/>
+        <line num="13" count="8" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="18" count="6" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="25" count="4" type="stmt"/>
+        <line num="29" count="4" type="stmt"/>
+        <line num="30" count="4" type="stmt"/>
+        <line num="31" count="4" type="stmt"/>
+        <line num="35" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="validation.validators.compare-fields">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="compare-fields-validation.ts" path="C:\Users\Rodolfho\Documents\projetos\react projects\react-clean-arq\src\validation\validators\compare-fields\compare-fields-validation.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="11" count="2" type="cond" truecount="2" falsecount="0"/>
+      </file>
+    </package>
+    <package name="validation.validators.email">
+      <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="email-validation.ts" path="C:\Users\Rodolfho\Documents\projetos\react projects\react-clean-arq\src\validation\validators\email\email-validation.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="9" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="cond" truecount="4" falsecount="0"/>
+      </file>
+    </package>
+    <package name="validation.validators.min-length">
+      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="min-length-validation.ts" path="C:\Users\Rodolfho\Documents\projetos\react projects\react-clean-arq\src\validation\validators\min-length\min-length-validation.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="8" count="2" type="cond" truecount="2" falsecount="0"/>
+      </file>
+    </package>
+    <package name="validation.validators.required-field">
+      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="required-field-validation.ts" path="C:\Users\Rodolfho\Documents\projetos\react projects\react-clean-arq\src\validation\validators\required-field\required-field-validation.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="7" count="2" type="cond" truecount="2" falsecount="0"/>
+      </file>
+    </package>
+    <package name="validation.validators.validation-composite">
+      <metrics statements="9" coveredstatements="9" conditionals="1" coveredconditionals="1" methods="4" coveredmethods="4"/>
+      <file name="validation-composite.ts" path="C:\Users\Rodolfho\Documents\projetos\react projects\react-clean-arq\src\validation\validators\validation-composite\validation-composite.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="1" coveredconditionals="1" methods="4" coveredmethods="4"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

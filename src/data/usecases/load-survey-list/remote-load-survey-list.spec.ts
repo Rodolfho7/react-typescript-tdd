@@ -25,7 +25,7 @@ describe('RemoteLoadSurveyList', () => {
     expect(httpGetClientSpy.url).toBe(url);
   })
 
-  test('Should throw UnexpectedError if httpGetClient returns 403', async () => {
+  test('Should throw AccessDeniedError if httpGetClient returns 403', async () => {
     const { sut, httpGetClientSpy } = makeSut();
     httpGetClientSpy.response = {
       statusCode: HttpStatusCode.forbidden

@@ -1,6 +1,6 @@
-# React + TypeScript + Vite
+# React + TypeScript + Jest
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a updated version of a mango's TDD frontend course, all of the code here is being developer using tdd, clean arquitecture, solid, and all of the best practices
 
 Currently, two official plugins are available:
 

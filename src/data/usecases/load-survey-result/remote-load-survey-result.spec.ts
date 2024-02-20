@@ -4,6 +4,7 @@ import { HttpGetClientSpy } from "../../tests/mock-http";
 import { AccessDeniedError } from "../../../domain/error/access-denied-error";
 import { HttpStatusCode } from "../../protocols/http/http-response";
 import { UnexpectedError } from "../../../domain/error/unexpected-error";
+import { mockRemoteSurveyResult } from "../../tests/mock-remote-survey-result";
 
 type SutTypes = {
   sut: RemoteLoadSurveyResult,
@@ -57,16 +58,7 @@ describe('RemoteLoadSurveyResult', () => {
 
   test('Should return a SurveyResult on 200', async () => {
     const { sut, httpGetClientSpy } = makeSut();
-    const survey = {
-      question: 'fake question',
-      date: new Date().getTime(),
-      answers: [{
-        image: 'fake image url',
-        answer: 'fake answer',
-        count: 2,
-        percent: 1
-      }]
-    }
+    const survey = mockRemoteSurveyResult();
     httpGetClientSpy.response = {
       statusCode: HttpStatusCode.ok,
       body: survey

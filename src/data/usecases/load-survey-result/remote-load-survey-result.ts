@@ -26,12 +26,13 @@ export class RemoteLoadSurveyResult implements LoadSurveyResult {
 export namespace RemoteLoadSurveyResult {
   export type Model = {
     question: string,
-    date: string,
+    date: number,
     answers: [{
       image?: string,
       answer: string,
       count: number,
-      percent: number
+      percent: number,
+      isCurrentAccountAnswer: boolean
     }]
   }
 }

@@ -5,14 +5,12 @@ import ApiContext from '../../presentation/contexts/api/api-context';
 import { getCurrentAccountAdapter, setCurrentAccountAdapter } from '../adapters/current-account-adapter';
 import { PrivateRoute } from '../../presentation/components/private-route/private-route';
 import { makeSurveyList } from '../factories/pages/survey-list/survey-list-factory';
+import { SurveyResult } from '../../presentation/pages/survey-result/survey-result';
 
 const routes = createBrowserRouter([
   {
     path: '/',
-    element:
-      <PrivateRoute>
-        {makeSurveyList()}
-      </PrivateRoute>
+    element: <PrivateRoute>{makeSurveyList()}</PrivateRoute>
   },
   {
     path: '/login',
@@ -21,6 +19,10 @@ const routes = createBrowserRouter([
   {
     path: '/signup',
     element: makeSignUp()
+  },
+  {
+    path: '/survey',
+    element: <SurveyResult />
   }
 ]);
 

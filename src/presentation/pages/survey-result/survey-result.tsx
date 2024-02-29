@@ -1,3 +1,4 @@
+import { Calendar } from '../../components/calendar/calendar';
 import { Footer } from '../../components/footer/footer';
 import { Header } from '../../components/header/header';
 import { Loading } from '../../components/loading/loading';
@@ -8,7 +9,10 @@ export function SurveyResult() {
     <div className={Styles.surveyResultWrap}>
       <Header />
       <div className={Styles.contentWrap}>
-        <h2>Qual é seu framework web favorito?</h2>
+        <hgroup>
+          <Calendar date={new Date()} />
+          <h2>Qual é seu framework web favorito?</h2>
+        </hgroup>
         <ul>
           <li>
             <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="" />
